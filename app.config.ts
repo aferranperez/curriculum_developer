@@ -1,7 +1,7 @@
 export default defineAppConfig({
   alpine: {
-    title: 'Alpine',
-    description: 'The minimalist blog theme',
+    title: 'Portafolio',
+    description: 'A small portfolio made by me with love.',
     image: {
       src: '/social-card-preview.png',
       alt: 'An image showcasing my project.',
@@ -9,11 +9,11 @@ export default defineAppConfig({
       height: 300
     },
     header: {
-      position: 'right', // possible value are : | 'left' | 'center' | 'right'
+      position: 'left', // possible value are : | 'left' | 'center' | 'right'
       logo: {
         path: '/logo.svg', // path of the logo
         pathDark: '/logo-dark.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
-        alt: 'alpine' // alt of the logo
+        alt: 'Portafolio' // alt of the logo
       }
     },
     footer: {
@@ -26,8 +26,7 @@ export default defineAppConfig({
       message: 'Follow me on' // string that will be displayed in the footer (leave empty or delete to disable)
     },
     socials: {
-      twitter: 'nuxtlabs',
-      instagram: 'atinuxt',
+      github: 'aferranperez',
       linkedin: {
         icon: 'uil:linkedin',
         label: 'LinkedIn',
