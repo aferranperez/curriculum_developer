@@ -30,10 +30,10 @@
     </div>
 </template>
 
-<style>
-.nuxt-icon svg{
-    width: 2.5em;
-    height: 2.5em;
-    margin-bottom: 0;
-}
+<style lang="css">
+    .nuxt-icon svg{
+        width: 2.5em;
+        height: 2.5em;
+        margin-bottom: 0;
+    }
 </style>
